@@ -20,8 +20,8 @@ public class ChatDelJuego implements IChatDeJuegos{
             }
         }else if(destino.equals("Mi equipo")){
             for(Persona jugadorM: jugadores){
-                if(p.getClass() == jugadorM.getClass()){
-                    System.out.println();
+                if(p.getClass().equals(jugadorM.getClass())){
+                    jugadorM.received(msg);
                 }
             }
         }

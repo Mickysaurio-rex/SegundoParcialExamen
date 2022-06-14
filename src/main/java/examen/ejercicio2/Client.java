@@ -44,6 +44,6 @@ public class Client {
         System.out.println("***************NUEVO MENSAJE***************");
         j5.send("Hola", "Todos");
         System.out.println("***************NUEVO MENSAJE***************");
-        j2.send("Vamoooooos", "Mi equipo");
+        j4.send("Vamoooooos", "Mi equipo");
     }
 }
